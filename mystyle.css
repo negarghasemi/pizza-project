@@ -1,0 +1,723 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto.ttf);
+ }
+
+.main-container{
+    position: absolute;
+    height: 1024px;
+    left: -0.07%;
+    right: -0.07%;
+    top: 0px;
+    max-width: 1200px;
+    background: url(./Pictures/image\ 13.jpg);
+}
+.nav-flex-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    justify-content: center;
+    gap: 60px;
+  }
+  .nav-flex-item{
+    width: auto;
+    cursor: pointer;
+  }
+.red-rectangle{
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    margin-left: 8px;
+    cursor: pointer;
+    background: #DA1315;
+    border-radius: 8px;
+    
+}
+.red-rectangle-text{
+    position: absolute;
+    height: 14px;
+    left: 40%;
+    /* right: 60%; */ 
+    top: 4px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+}
+.title-text{
+    position: absolute;
+    height: 82px;
+    left: 8.33%;
+    top: 120px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61.3341px;
+    line-height: 82px;
+    text-align: center;
+    color: #2D2D2D;
+}
+.description{
+    position: absolute;
+    height: 21px;
+    left: 8.33%;
+    top: 210px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #696969;
+}
+.my-order-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px 16px;
+    gap: 20px;
+
+    position: absolute;
+    width: 300px;
+    height: 535px;
+    left: 1020px;
+    top: 325px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+.tomato{
+    position: absolute;
+    width: 221.48px;
+    height: 231.51px;
+    left: 1201.11px;
+    top: 154px;
+    transform: rotate(35.7deg);
+    content: url("./Pictures/tomato.png");
+}
+
+.my-order-txt{
+    width: 83px;
+    height: 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2D2D2D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.order-history-div{
+    position: absolute;        
+    height: 19px;
+    left: 35%;
+    top: 26px;
+  }
+.order-history-txt{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.my-cart-txt
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.pizza-delivery-txt
+{
+    position: absolute; 
+    width: 19.11px;
+    height: 13.16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+ 
+.pizza-delivery-cs-txt{
+    position: absolute; 
+    width: 19.11px;
+    height: 13.16px;
+    right: 5px;
+    top: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    color: #DA1315;
+ }
+.ellipse{
+    position: absolute;
+    width: 30px;
+    height: 30.58px;
+    right: 5px;
+    content: url("./Pictures/Ellipse 52 (Stroke).png");
+ }
+ 
+.flex-group{
+    width:  100%;
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.close{
+    width: 6px;
+    height: 6px;
+    left: 5px;
+    top: 5px;
+    content: url("./Pictures/close.png");
+    cursor: pointer;
+}
+.small-price
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2D2D2D;
+}
+.small-txt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2D2D2D;
+}
+.pizza{
+    border: 1px solid #DFDFDF;
+    border-radius: 198px;
+    transform: rotate(-90deg);
+    content: url("./Pictures/Rectangle 10.png");
+}
+.hr{
+    width: 268px;
+    height: 0px;
+    border: 1px solid #DFDFDF;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.ss-price{  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #2D2D2D;
+}
+.medium-txt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #2D2D2D;
+}
+.medium-price{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #2D2D2D;
+}
+.primary-button-big{
+    width: 268px;
+    height: 50px;
+    position: relative;
+    background: #DA1315;
+    border-radius: 12px;  
+    cursor: pointer;
+}
+.primary-button-big:hover
+{
+    background: #AE0F11;
+}
+.white-txt{
+    position: absolute;
+    top :17px;
+    left: 30%;
+    width: 95px; 
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.zeitoon{
+    position: absolute;
+    width: 207.34px;
+    height: 180.26px;
+    left: 5px;
+    top: 308.45px;
+    transform: rotate(-20deg);
+    content: url("./Pictures/zaitoon.png");
+}
+.pizza-card{
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 16px;
+    Width:260px;
+    Height:290px;
+    Top:62px;
+    margin: 5px 5px 5px 5px;
+}
+.Pizza-card-div{
+    Width:260px;
+    Height:290px;
+    Top:62px;
+    gap: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.pizza-card-container{
+    position: absolute;
+    Top:325px;
+    left: -30px;
+    display: flex;
+    gap: 24px;
+    row-gap: 86px;
+    width: 1000px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.pizza-big{
+    width: 124px;
+    height: 124px;
+    position: absolute;
+    left: 27.54%;
+    right: 27.54%;
+    bottom: 80%;
+    border: 1px solid #DFDFDF;
+    border-radius: 198px;
+    transform: rotate(-90deg);
+    content: url("./Pictures/pizza.png")
+}
+.pizza-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2D2D2D;
+}
+.pizza-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    Width:192px;
+    Height:55px;
+    text-align: center;
+    color: #696969;
+}
+.hr-pizza-card{
+    width: 244px;
+    border: 1px solid #DFDFDF;
+}
+.pizza-card-grid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.black-input-selector-txt{
+    width: 101px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.white-input-selector{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 8px;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #2D2D2D;
+}
+.white-input-selector:focus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 8px;
+    gap: 8px;
+    background: #2D2D2D;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color:  #FFFFFF;
+}
+.white-input-selector:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 8px;
+    gap: 8px;
+    background: #FFFFFF;;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #DA1315;
+    border: 1px solid #696969;
+}
+.white-input-selector-txt{
+    width: fit-content;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #2D2D2D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.pizza-card-l-txt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2D2D2D;
+}
+.secondary-button-small{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 12px;
+    gap: 8px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #DA1315;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.secondary-button-small:hover{
+    background: #FBE7E8;
+}
+.add-to-card-txt{
+    width: 85px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DA1315;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.tomato-left{
+    position: absolute;
+    width: 171.85px;
+    height: 179.63px;
+    left: -2px;
+    top: 692.5px;
+    transform: rotate(-60.05deg);
+    content: url("./Pictures/tomato.png");
+}
+.reihan-right{
+    position: absolute;
+    width: 245.67px;
+    height: 144.3px;
+    left: 900px;
+    top: 990px;
+    content: url("./Pictures/reihan-right.png");
+}
+.reihan-left{
+    position: absolute;
+    width: 241.89px;
+    height: 153.57px;
+    left: 40px;
+    top: 1080.1px;
+    content: url("./Pictures/reihan-left.png");
+}
+.felfel{
+    position: absolute;
+    width: 190.63px;
+    height: 316.55px;
+    left: 900px;
+    top: 1250px;
+    content: url("./Pictures/felfel.png");
+    transform: rotate(20deg); 
+}
+.footer-title{
+    position: absolute;
+    height: 82px;
+    left: 8.12%;
+    top: 1500px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61.3341px;
+    line-height: 82px;
+    color: #2D2D2D;
+}
+.footer-description{
+    position: absolute;
+    height: 21px;
+    left: 8.45%;
+    top: 1570px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #696969;
+}
+.location-box{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 300px;
+    left: 8.33%;
+    right: 8.33%;
+    top: 1610px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.map{
+    position: absolute;
+    height: 100%;
+    right: 0px;
+    border-radius: 0px 8px 8px 0px;
+    content: url("./Pictures/map.png");
+}
+.location-detail-container{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 32px;
+    gap: 20px;
+    justify-content: center;
+    width:  405px;
+    flex-direction: column;
+}
+.location-detail-title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.3355px;
+    line-height: 36px;
+    padding-bottom: 15px;
+    /* Main Black */
+    
+    color: #2D2D2D;
+}
+.location-detail-sub-title-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.location-detail-sub-title-container2{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.location{
+    width: 12px;
+    height: 17.5px;
+}
+.location-txt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #2D2D2D;
+
+}
+.location-sub-txt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Main Black */
+
+    color: #2D2D2D;
+
+}
+.blue-rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 253px;
+    height: 40px;
+    background: #1977F3;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.facebook-txt{
+    width: 197px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.footer-hr{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: -20px;
+    border: 1px solid #DFDFDF;
+}
+.footer-div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    height: 48px;
+    align-items: baseline;
+    justify-content: center;
+    gap: 800px;
+}
+.footer{
+    position: relative;
+    height: 82px;
+    left:0px;
+    right: 0px;
+    top: 1950px;
+    width: 100%;
+    display: flex;
+    height: 48px;
+}
+
+.black-facebook
+{
+    width: 16px;
+    height: 16px;
+    content: url("./Pictures/black-facebook.png");
+}
+.map-div{
+    position: relative;
+    width: 795px;
+    height: 300px;
+    box-sizing: content-box;
+}
+.small-pizza
+{
+    position: absolute;
+    top: 103px;
+    right: 354.2px; 
+    height: 20px;
+    width: 19.8px; 
+    content: url("./Pictures/small-pizza.png");
+}
+.small-pizza-location{
+    position: absolute;
+    width: 24px;
+    height: 32px;
+    top: 99px;
+    right: 352px; 
+
+    background: #FFFFFF;
+    /* Main Red */
+    content: url("./Pictures/small-pizza-location.png");
+}
+.red-small-txt{
+    position: absolute;
+    height: 19px;
+    right: 320px;
+    top: 134px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.8813px;
+    line-height: 27px;
+    text-align: center;
+    color: #DA1315;
+}
