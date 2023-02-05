@@ -5,11 +5,11 @@
 
 .main-container{
     position: absolute;
-    height: 1024px;
+    /* height: 1024px; */
     left: -0.07%;
     right: -0.07%;
     top: 0px;
-    max-width: 1200px;
+    /*max-width: 1200px; */
     background: url(./Pictures/image\ 13.jpg);
 }
 .nav-flex-container {
@@ -170,7 +170,7 @@
  }
  
 .flex-group{
-    width:  100%;
+    width:  700px;
     display:flex;
     justify-content: space-between;
     align-content: center;
@@ -720,4 +720,196 @@
     line-height: 27px;
     text-align: center;
     color: #DA1315;
+}
+.invoice-title{
+    top: 88px;
+}
+.invoice-page{
+    position: absolute;
+    height: 950px;
+    left: -0.07%;
+    right: -0.07%;
+    top: 0px;
+}
+.invoice-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    text-align: center;
+  }
+  .invoice-part-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2D2D2D;
+  }
+  .invoice-session{
+    position: absolute;
+    top: 202px;
+    display: grid;
+    left: 121px;
+    grid-template-columns: 456px 720px; 
+    gap: 40px;
+  }
+
+  .invoice-information-box{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    Width: 456px;
+    Height: 366px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    padding-left: 24px;
+    padding-top: 24px;
+  }
+  .incoive-session-col1{
+    display: grid;
+    grid-template-columns: auto; 
+    width: 100%;
+    gap: 16px;
+  }
+  .payment-method-box{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    Width: 456px;
+    Height: 98px;
+  }
+  .ivoice-order{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+  }
+  .invoice-information-box-item-star{
+    color: #DA1315;
+  }
+  .invoice-box-item{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    border-radius: 8px;
+    Width: 408px;
+    Height:40px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B3B3B3;
+  }
+.invoice-box-item:valid { 
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2D2D2D;
+}
+
+.invoice-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #696969;
+}
+.invoice-input{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.invoice-payment-method{
+    cursor: pointer;
+    direction: rtl;
+}
+.payment-method-box{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap :24px;
+    justify-content: center;
+    padding-left: 21px;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+}
+.invoice-myorder-title{
+    width: 83px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2D2D2D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.size-txt
+{
+    width: 200px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2D2D2D;
+}
+.small-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:13px;
+}
+.red-big-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 672px;
+    height: 56px;
+    background: #DA1315;
+    border-radius: 12px;
+    flex: none;
+    order: 8;
+    flex-grow: 0;
+    align-self: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+.right-arrow{
+    content: url(./Pictures/righ.png);
+    width: 7px;
+    height: 14px;
 }

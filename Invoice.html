@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html ">
+    <head>
+        <title>Pizza</title>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body class="main-container invoice-page">
+        <nav>
+            <div class="nav-flex-container">
+                <div class="nav-flex-item" >
+                    <div>
+                        <span class="order-history-txt">
+                              🔍 Order History
+                        </span> 
+                    </div>             
+                </div>
+                <div class="nav-flex-item" style="position: relative;">
+                    <div >                    
+                        <img class="ellipse" >
+                        <span class="pizza-delivery-cs-txt">Cs</span>
+                        <span class="pizza-delivery-txt">Pizza Delivery</span>
+                    </div>
+                    
+                </div>
+                <div class="nav-flex-item" style="position: relative;">
+                    <span class="my-cart-txt">🍕 My Cart </span>
+                    <span class="red-rectangle">
+                        <span class="red-rectangle-text">5</span>  
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <div class="title-text invoice-title" >Invoice</div>
+        </header>
+        <section class="invoice-session">
+            <div class="incoive-session-col1">
+                <div class="invoice-part-title">Additional Information</div>
+                <div class="invoice-information-box">
+                    <div class="invoice-input">
+                        <div >
+                            <span class="pizza-title">Delivery Address</span>
+                            <span class="pizza-title invoice-information-box-item-star">*</span>
+                        </div>
+                        <input required type="text" id="dadress" name="fname" placeholder ="Example: 2387 Lico st. Sta Cruz..." class="invoice-box-item">
+                    </div>
+                    <div class="invoice-input">
+                        <div>
+                            <span class="pizza-title">Contact Person for Delivery</span>
+                            <span class="pizza-title invoice-information-box-item-star">*</span>
+                        </div>
+                        <input required type="text" id="dadress" name="fname" placeholder ="Example: John Smith" class="invoice-box-item">
+                    </div>
+                    <div class="invoice-input">
+                        <div>
+                            <span class="pizza-title">Contact Person for Delivery</span>
+                            <span class="pizza-title invoice-information-box-item-star">*</span>
+                        </div>
+                        <input required type="text" id="dadress" name="fname" placeholder ="Example: +6394874512" class="invoice-box-item">
+                    </div>
+                    <div class="invoice-description">
+                        Driver will contact you to make the delivery easier. Also send the tracking code for the delivery to your phone number.
+                    </div>
+                </div>
+                <div class="invoice-part-title">Payment Method</div>
+                <div class="payment-method-box">
+                    <label class="invoice-payment-method">Credit or Debit Card
+                        <input type="radio" checked="checked" name="radio">
+                    </label>
+                    <label class="invoice-payment-method" >Cash on Delivery
+                        <input type="radio"  name="radio">
+                    </label>
+                    
+                </div>
+            </div>
+            <div class="ivoice-order">
+                <div>
+                    <span class="invoice-myorder-title">My Order</span>
+                </div>
+                <div>
+                    <div class="flex-group">
+                        <div class="small-flex">
+                            <img class="close">
+                            <img class="pizza">
+                            <span class="small-txt">Hawaiian Pizza</span>
+                        </div>
+                        
+                        <span class="size-txt">Small (32in.)</span>
+                        <span class="small-price">$18.00</span> 
+                    </div>
+                    <div class="flex-group">
+                        <div class="small-flex">
+                            <img class="close">
+                            <img class="pizza">
+                            <span class="small-txt">Hawaiian Pizza</span>
+                        </div>
+                        <span class="size-txt">Small (32in.)</span>
+                        <span class="small-price">$18.00</span> 
+                    </div>                    
+                </div>
+                <div class="flex-group">
+                    <span class="small-txt">Subtotal</span>
+                    <span class="ss-price">$1.00</span> 
+                </div>
+                <div class="flex-group">
+                    <span class="small-txt">E-Vat</span>
+                    <span class="ss-price">$0.99</span> 
+                </div>
+                <div class="flex-group">
+                    <span class="small-txt">Delivery Fee (Free for over $15.00)</span>
+                    <span class="ss-price">$0.00</span> 
+                </div>
+                <div style="align-self: center;">
+                    <hr class="hr" style="width: 672px; ">
+                </div>
+                <div class="flex-group">
+                    <span class="medium-txt">Total</span>
+                    <span class="medium-price">$37.99</span> 
+                </div> 
+                <div class="red-big-btn">
+                    <div>Pay $37.99 </div>
+                    <img class="right-arrow">
+                </div>
+            </div>
+        </section>
+        <footer class="invoice-footer" >
+            <hr class="footer-hr" style="top: -70px;">
+            <div class="footer-div">
+                <div class="white-input-selector-txt"> Ⓒ Pizzaro Fast Food Inc 2021</div>
+                <div>
+                    <img class="black-facebook">
+                    <span class="white-input-selector-txt">Keep updated follow our Facebook page</span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
