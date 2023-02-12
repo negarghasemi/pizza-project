@@ -5,7 +5,6 @@
 
 .main-container{
     position: absolute;
-    /* height: 1024px; */
     left: -0.07%;
     right: -0.07%;
     top: 0px;
@@ -73,30 +72,37 @@
     line-height: 21px;
     color: #696969;
 }
-.my-order-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 24px 16px;
-    gap: 20px;
-
+.aside-div{
     position: absolute;
     width: 300px;
     height: 535px;
     left: 1020px;
     top: 325px;
+    bottom: 171px;
     background: #FFFFFF;
     box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.2);
     border-radius: 16px;
+    
+}
+.my-order-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:  16px; 
+    gap: 20px;
+    
+    width: 270px;
+    height: 500px;
+    
 }
 .tomato{
     position: absolute;
-    width: 221.48px;
-    height: 231.51px;
-    left: 1201.11px;
-    top: 154px;
-    transform: rotate(35.7deg);
+    width: 271.48px;
+    height: 281.51px;
+    left: 1100.11px;
+    top: 180px;
+    /* transform: rotate(35.7deg); */
     content: url("./Pictures/tomato.png");
 }
 
@@ -148,6 +154,8 @@
     font-size: 16px;
     line-height: 19px;
     color: #000000;
+    direction: rtl;
+    left: 25px;
 }
  
 .pizza-delivery-cs-txt{
@@ -155,7 +163,7 @@
     width: 19.11px;
     height: 13.16px;
     right: 5px;
-    top: 3px;
+    top: -2px;
     font-family: Roboto;
     font-style: normal;
     font-size: 16px;
@@ -165,12 +173,13 @@
     position: absolute;
     width: 30px;
     height: 30.58px;
-    right: 5px;
+    right: 0px;
+    top: -6px;
     content: url("./Pictures/Ellipse 52 (Stroke).png");
  }
  
 .flex-group{
-    width:  700px;
+    width: inherit;
     display:flex;
     justify-content: space-between;
     align-content: center;
@@ -211,6 +220,7 @@
     width: 268px;
     height: 0px;
     border: 1px solid #DFDFDF;
+    margin: 0px;
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -261,7 +271,7 @@
 }
 .white-txt{
     position: absolute;
-    top :17px;
+    top :10px;
     left: 30%;
     width: 95px; 
     height: 21px;
@@ -279,25 +289,23 @@
     position: absolute;
     width: 207.34px;
     height: 180.26px;
-    left: 5px;
-    top: 308.45px;
-    transform: rotate(-20deg);
-    content: url("./Pictures/zaitoon.png");
+    /* left: -5px; */
+    top: 220.45px;
+    content: url(./Pictures/zaitoon.png);
 }
 .pizza-card{
     position: relative;
     background: #FFFFFF;
     border-radius: 16px;
-    Width:260px;
-    Height:290px;
-    Top:62px;
-    margin: 5px 5px 5px 5px;
+    Width:276px;
+    Height:328px;
 }
 .Pizza-card-div{
+    position: absolute;
     Width:260px;
-    Height:290px;
-    Top:62px;
-    gap: 5px;
+    Height:260px;
+    Top:60px;
+    gap: 16px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -350,6 +358,7 @@
 .hr-pizza-card{
     width: 244px;
     border: 1px solid #DFDFDF;
+    margin: 0px;
 }
 .pizza-card-grid{
     display: flex;
@@ -482,7 +491,7 @@
     width: 171.85px;
     height: 179.63px;
     left: -2px;
-    top: 692.5px;
+    top: 650px;
     transform: rotate(-60.05deg);
     content: url("./Pictures/tomato.png");
 }
@@ -498,36 +507,38 @@
     position: absolute;
     width: 241.89px;
     height: 153.57px;
-    left: 40px;
-    top: 1080.1px;
-    content: url("./Pictures/reihan-left.png");
+    left: 10px;
+    top: 1500px;
+    content: url(./Pictures/reihan-left.png);
 }
 .felfel{
     position: absolute;
-    width: 190.63px;
+    width: 250px;
     height: 316.55px;
     left: 900px;
-    top: 1250px;
-    content: url("./Pictures/felfel.png");
-    transform: rotate(20deg); 
+    top: 1680px;
+    content: url(./Pictures/felfel.png);
 }
-.footer-title{
+.article{
     position: absolute;
     height: 82px;
     left: 8.12%;
-    top: 1500px;
+    top: 1943px;
+    display: flex;
+    flex-direction: column;
+    gap :24px;
+}
+.footer-title{
+  
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
     font-size: 61.3341px;
-    line-height: 82px;
+    /* line-height: 82px; */
     color: #2D2D2D;
 }
 .footer-description{
-    position: absolute;
-    height: 21px;
-    left: 8.45%;
-    top: 1570px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -538,11 +549,9 @@
 .location-box{
     display: flex;
     justify-content: space-between;
-    position: absolute;
+
     height: 300px;
-    left: 8.33%;
-    right: 8.33%;
-    top: 1610px;
+
     background: #FFFFFF;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
@@ -665,11 +674,11 @@
     gap: 800px;
 }
 .footer{
-    position: relative;
+    position: absolute;
     height: 82px;
     left:0px;
     right: 0px;
-    top: 1950px;
+    top: 2463px;
     width: 100%;
     display: flex;
     height: 48px;
