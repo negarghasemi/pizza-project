@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html ">
     <head>
-        <title>Invoice</title>
+        <title>Transaction Receipt</title>
         <link rel="stylesheet" href="mystyle.css">
     </head>
     <body class="main-container invoice-page">
         <nav>
             <div class="nav-flex-container">
                 <div class="nav-flex-item" >
-                    <div>
-                        <span class="small-txt16">
-                              🔍 Order History
-                        </span> 
-                    </div>             
+                    <div class="small-txt16">
+                        🔍 Order History
+                    </div>            
                 </div>
                 <div class="nav-flex-item" style="position: relative;">
                     <div >                    
@@ -31,51 +29,49 @@
             </div>
         </nav>
         <header>
-            <div class="title-text invoice-title" >Invoice</div>
+            <div class="title-text invoice-title" >Transaction Receipt</div>
         </header>
         <section class="invoice-session">
-            <div class="incoive-session-col1">
-                <div class="invoice-part-title">Additional Information</div>
-                <div class="invoice-information-box">
-                    <div class="invoice-input">
-                        <div >
-                            <span class="pizza-title">Delivery Address</span>
-                            <span class="pizza-title invoice-information-box-item-star">*</span>
-                        </div>
-                        <input required type="text" id="dadress" name="fname" placeholder ="Example: 2387 Lico st. Sta Cruz..." class="invoice-box-item">
+            <div class="invoice-information-box transaction-information-box">
+                <div class="small-flex-column">
+                    <div class="small-flex-column gap8">
+                        <div class="small-txt14">Address</div>
+                        <div class="small-txt18">2746 Lico St. Sta Cruz, Manila</div>
                     </div>
-                    <div class="invoice-input">
-                        <div>
-                            <span class="pizza-title">Contact Person for Delivery</span>
-                            <span class="pizza-title invoice-information-box-item-star">*</span>
-                        </div>
-                        <input required type="text" id="dadress" name="fname" placeholder ="Example: John Smith" class="invoice-box-item">
+                    <div class="small-flex-column gap8">
+                        <div class="small-txt14">Contact Person for Delivery</div>
+                        <div class="small-txt18">Karl Llamma</div>
                     </div>
-                    <div class="invoice-input">
-                        <div>
-                            <span class="pizza-title">Contact Person for Delivery</span>
-                            <span class="pizza-title invoice-information-box-item-star">*</span>
-                        </div>
-                        <input required type="text" id="dadress" name="fname" placeholder ="Example: +6394874512" class="invoice-box-item">
-                    </div>
-                    <div class="invoice-description">
-                        Driver will contact you to make the delivery easier. Also send the tracking code for the delivery to your phone number.
+                    <div class="small-flex-column gap8">
+                        <div class="small-txt14">Phone Number</div>
+                        <div class="small-txt18">+6394874512</div>
                     </div>
                 </div>
-                <div class="invoice-part-title">Payment Method</div>
-                <div class="payment-method-box">
-                    <label class="invoice-payment-method">Credit or Debit Card
-                        <input type="radio" checked="checked" name="radio">
-                    </label>
-                    <label class="invoice-payment-method" >Cash on Delivery
-                        <input type="radio"  name="radio">
-                    </label>
+                <div class="small-flex-column">
+                    <div class="small-flex">
+                        <hr class="hr" style="width: 408px; ">
+                    </div>
+
+                    <div class="small-flex-column gap8">
+                        <div class="small-txt14">Payment Method</div>
+                        <div class="small-txt18">Paid with card ending with *148</div>
+                    </div>
                     
                 </div>
             </div>
-            <div class="ivoice-order" style="margin-top: 40px;">
-                <div>
-                    <span class="invoice-myorder-title">My Order</span>
+            <div class="ivoice-order">
+                <div class="flex-group">
+                    <span class="invoice-myorder-title">🏍️ Your Order</span>
+                    <div  class="small-flex">
+                        <span class="small-txt14"> Tracking #:</span>
+                        <div class="invoice-number-box flex-group">
+                            <span class="small-txt16">UE845125612</span>
+                            <div class="small-flex">
+                                <span class="small-txt14 blue-txt">Copy </span>
+                                <img src="./Pictures/copy.png">
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <div class="flex-group">
@@ -114,15 +110,10 @@
                     <hr class="hr" style="width: 672px; ">
                 </div>
                 <div class="flex-group">
-                    <span class="medium-txt24">Total</span>
+                        <span class="medium-txt24">Total Amount<span class="txt-small15">(Credit or Debit Card)</span></span>
                     <span class="medium-price">$37.99</span> 
                 </div> 
-                <a href="./Transaction.html" style="text-decoration: none;">
-                    <div class="red-big-btn">
-                        <div>Pay $37.99 </div>
-                        <img class="right-arrow">
-                    </div>
-                </a>
+               
             </div>
         </section>
         <footer class="invoice-footer" >

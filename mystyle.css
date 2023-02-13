@@ -126,15 +126,7 @@
     left: 35%;
     top: 26px;
   }
-.order-history-txt{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-}
-.my-cart-txt
+.small-txt16
 {
     font-family: Roboto;
     font-style: normal;
@@ -143,13 +135,13 @@
     line-height: 19px;
     color: #000000;
 }
-.pizza-delivery-txt
+.small-txt16-italic
 {
     position: absolute; 
     width: 19.11px;
     height: 13.16px;
     font-family: Roboto;
-    font-style: normal;
+    font-style: italic;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
@@ -179,10 +171,17 @@
  }
  
 .flex-group{
-    width: inherit;
+    width: 700px;
     display:flex;
     justify-content: space-between;
-    align-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+.match-flex-group{
+    width: 268px;
+    display:flex;
+    justify-content: space-between;
+    align-content: space-between;
     align-items: center;
 }
 .close{
@@ -202,12 +201,20 @@
     line-height: 19px;
     color: #2D2D2D;
 }
-.small-txt{
+.small-txt14{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    color: #2D2D2D;
+}
+.small-txt18{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
     color: #2D2D2D;
 }
 .pizza{
@@ -236,7 +243,7 @@
     text-align: right;
     color: #2D2D2D;
 }
-.medium-txt{
+.medium-txt24{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -614,18 +621,7 @@
     color: #2D2D2D;
 
 }
-.location-sub-txt{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
 
-    /* Main Black */
-
-    color: #2D2D2D;
-
-}
 .blue-rectangle{
     display: flex;
     flex-direction: row;
@@ -777,6 +773,10 @@
     padding-left: 24px;
     padding-top: 24px;
   }
+  .transaction-information-box{
+    gap: 88px;
+    align-content: space-between;
+  }
   .incoive-session-col1{
     display: grid;
     grid-template-columns: auto; 
@@ -865,7 +865,7 @@
 
 }
 .invoice-myorder-title{
-    width: 83px;
+    width: fit-content;
     height: 23px;
     font-family: 'Roboto';
     font-style: normal;
@@ -894,6 +894,18 @@
     justify-content: center;
     align-items: center;
     gap:13px;
+    /* width: 500px; */
+}
+.small-flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:24px;
+    /* width: 500px; */
+}
+.gap8{
+    gap :8px;
 }
 .red-big-btn{
     display: flex;
@@ -921,4 +933,24 @@
     content: url(./Pictures/righ.png);
     width: 7px;
     height: 14px;
+}
+.txt-small15{
+    Font: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 33px;
+    color: #2D2D2D;
+}
+.invoice-number-box{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    border-radius: 8px;
+    width: 256px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.blue-txt{
+    color: #1977F3;
 }
