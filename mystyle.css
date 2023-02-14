@@ -740,7 +740,6 @@
     position: absolute;
     left: 0;
     bottom: 0;
-
     width: 100%;
     text-align: center;
   }
@@ -953,4 +952,120 @@
 }
 .blue-txt{
     color: #1977F3;
+}
+.search-box{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    border-radius: 8px;
+    width: 256px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap:64px;
+}
+.history-title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61.3341px;
+    line-height: 82px;
+    color: #2D2D2D;
+}
+
+.history-title-flex{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 82px;
+    left: 8.33%;
+    right: 76.81%;
+    top: 88px;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    content: url("./Pictures/Search.png");
+    width: 24px;
+    height: 24px;
+}
+.gray-txt{
+    color: #B3B3B3;
+}
+.gray-txt3{
+    color: #696969;
+}
+.history-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    width: 1152px;
+    height: 668px;
+    left: 120px;
+    top: 202px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+.history-page{
+    position: absolute;
+    height: 1024px;
+    left: -0.07%;
+    right: -0.07%;
+    top: 0px;
+}
+.history-detials-flex{
+    display: grid;
+    grid-template-columns: 280px 280px 280px 260px 280px;
+    align-items: center;
+    justify-content: space-between;
+    width: 1152px;
+}
+.gray-box{
+    background: #F3F3F3;
+    border-radius: 16px;
+    height: 56px;
+}
+.arrow-right{
+    content: url("./Pictures/Arow\ Rigth\ 24px.png");
+    width: 24px;
+    height: 24px;
+}
+.pink-rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FBE7E8;
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.bin{
+    content: url("./Pictures/bin.png");
+    width: 12px;
+    height: 17px;
+}
+.margin-left16{
+    margin-left: 16px;
+}
+.margin-right16{
+    margin-right: 16px;
+}
+.arrow-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:16px;
+    cursor: pointer;
 }
