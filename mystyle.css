@@ -1051,6 +1051,11 @@
     right: -0.07%;
     top: 0px;
 }
+.history-page-blur
+{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
 .history-detials-flex{
     display: grid;
     grid-template-columns: 280px 280px 280px 260px 280px;
@@ -1120,4 +1125,11 @@
 }
 #ordermodal{
     display: none;
+}
+.body-container-blured
+{
+    filter:blur(18px);
+}
+.body-container{
+    filter: blur(0px);
 }

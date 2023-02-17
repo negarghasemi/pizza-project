@@ -5,252 +5,295 @@
         <link rel="stylesheet" href="mystyle.css">
     </head>
     <body class="main-container history-page">
-        <nav>
-            <div class="nav-flex-container">
-                <div class="nav-flex-item" >
+        <div id="bodycontainer">
+            <nav>
+                <div class="nav-flex-container">
+                    <div class="nav-flex-item" >
+                        <div>
+                            <a href ="History.html" class="no-decoration">
+                                <span class="small-txt16">
+                                    🔍 Order History
+                                </span>
+                            </a> 
+                        </div>             
+                    </div>
+                    <div class="nav-flex-item" style="position: relative;">
+                        <div >                    
+                            <img class="ellipse" >
+                            <span class="pizza-delivery-cs-txt">Cs</span>
+                            <span class="small-txt16-italic">Pizza Delivery</span>
+                        </div>
+                        
+                    </div>
+                    <div class="nav-flex-item" style="position: relative;">
+                        <span class="small-txt16">🍕 My Cart </span>
+                        <span class="red-rectangle">
+                            <span class="red-rectangle-text">5</span>  
+                        </span>
+                    </div>
+                </div>
+            </nav>
+            <header>
+                <div class="history-title-flex">
+                    <div class="history-title" >History</div>
+                    <div class="search-box">
+                        <div class="small-txt16 gray-txt">Search by Tracking ID</div>
+                        <img class="search">
+                    </div>
+                </div>
+            </header>
+            <section class="history-box">
+                <div class="history-detials-flex" >
+                    <div class="small-txt16 gray-txt3 margin-left16" >Tracking ID</div>
+                    <div class="small-txt16 gray-txt3">Date</div>
+                    <div class="small-txt16 gray-txt3">Total Amount</div>
+                    <div class="small-txt16 gray-txt3">Action</div>
+                    <div class="small-txt16 gray-txt3 margin-right16">Delete</div>
+                </div>
+                <div class="history-detials-flex gray-box">
+                    <div  class="small-txt16 margin-left16">
+                        UE845125612
+                    </div>
+                    <div  class="small-txt16">
+                        24-01-2023-18:32
+                    </div>
+                    <div class="small-txt16">
+                        $33.99
+                    </div>
+                    <div class="arrow-flex" onclick="
+                        document.getElementById('ordermodal').style.display='block';
+                        document.getElementById('bodycontainer').className ='body-container-blured'
+                        ">
+                        <span class="small-txt14 blue-txt">View detail </span>
+                        <img class="arrow-right">
+                    </div>
                     <div>
-                        <a href ="History.html" class="no-decoration">
-                            <span class="small-txt16">
-                                🔍 Order History
-                            </span>
-                        </a> 
-                    </div>             
-                </div>
-                <div class="nav-flex-item" style="position: relative;">
-                    <div >                    
-                        <img class="ellipse" >
-                        <span class="pizza-delivery-cs-txt">Cs</span>
-                        <span class="small-txt16-italic">Pizza Delivery</span>
-                    </div>
-                    
-                </div>
-                <div class="nav-flex-item" style="position: relative;">
-                    <span class="small-txt16">🍕 My Cart </span>
-                    <span class="red-rectangle">
-                        <span class="red-rectangle-text">5</span>  
-                    </span>
-                </div>
-            </div>
-        </nav>
-        <header>
-            <div class="history-title-flex">
-                <div class="history-title" >History</div>
-                <div class="search-box">
-                    <div class="small-txt16 gray-txt">Search by Tracking ID</div>
-                    <img class="search">
-                </div>
-            </div>
-        </header>
-        <section class="history-box">
-            <div class="history-detials-flex" >
-                <div class="small-txt16 gray-txt3 margin-left16" >Tracking ID</div>
-                <div class="small-txt16 gray-txt3">Date</div>
-                <div class="small-txt16 gray-txt3">Total Amount</div>
-                <div class="small-txt16 gray-txt3">Action</div>
-                <div class="small-txt16 gray-txt3 margin-right16">Delete</div>
-            </div>
-            <div class="history-detials-flex gray-box">
-                <div  class="small-txt16 margin-left16">
-                    UE845125612
-                </div>
-                <div  class="small-txt16">
-                    24-01-2023-18:32
-                </div>
-                <div class="small-txt16">
-                    $33.99
-                </div>
-                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
-                    <span class="small-txt14 blue-txt">View detail </span>
-                    <img class="arrow-right">
-                </div>
-                <div>
-                    <div class="pink-rectangle margin-right16">
-                        <img class="bin">
+                        <div class="pink-rectangle margin-right16">
+                            <img class="bin">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="history-detials-flex gray-box">
-                <div  class="small-txt16 margin-left16">
-                    UE845125612
-                </div>
-                <div  class="small-txt16">
-                    24-01-2023-18:32
-                </div>
-                <div class="small-txt16">
-                    $33.99
-                </div>
-                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
-                    <span class="small-txt14 blue-txt">View detail </span>
-                    <img class="arrow-right">
-                </div>
-                <div>
-                    <div class="pink-rectangle margin-right16">
-                        <img class="bin">
+                <div class="history-detials-flex gray-box">
+                    <div  class="small-txt16 margin-left16">
+                        UE845125612
+                    </div>
+                    <div  class="small-txt16">
+                        24-01-2023-18:32
+                    </div>
+                    <div class="small-txt16">
+                        $33.99
+                    </div>
+                    <div class="arrow-flex" onclick="
+                        document.getElementById('ordermodal').style.display='block';
+                        document.getElementById('bodycontainer').className ='body-container-blured'
+                        ">
+                        <span class="small-txt14 blue-txt">View detail </span>
+                        <img class="arrow-right">
+                    </div>
+                    <div>
+                        <div class="pink-rectangle margin-right16">
+                            <img class="bin">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="history-detials-flex gray-box">
-                <div  class="small-txt16 margin-left16">
-                    IO9084020498
-                </div>
-                <div  class="small-txt16">
-                    24-01-2023-18:32
-                </div>
-                <div class="small-txt16">
-                    $34.99
-                </div>
-                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
-                    <span class="small-txt14 blue-txt">View detail </span>
-                    <img class="arrow-right">
-                </div>
-                <div>
-                    <div class="pink-rectangle margin-right16">
-                        <img class="bin">
+                <div class="history-detials-flex gray-box">
+                    <div  class="small-txt16 margin-left16">
+                        IO9084020498
+                    </div>
+                    <div  class="small-txt16">
+                        24-01-2023-18:32
+                    </div>
+                    <div class="small-txt16">
+                        $34.99
+                    </div>
+                    <div class="arrow-flex" onclick="
+                        document.getElementById('ordermodal').style.display='block';
+                        document.getElementById('bodycontainer').className ='body-container-blured'
+                        ">
+                        <span class="small-txt14 blue-txt">View detail </span>
+                        <img class="arrow-right">
+                    </div>
+                    <div>
+                        <div class="pink-rectangle margin-right16">
+                            <img class="bin">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="history-detials-flex gray-box">
-                <div  class="small-txt16 margin-left16">
-                    UE345235666
-                </div>
-                <div  class="small-txt16">
-                    24-01-2023-18:32
-                </div>
-                <div class="small-txt16">
-                    $32.34
-                </div>
-                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'" >
-                    <span class="small-txt14 blue-txt">View detail </span>
-                    <img class="arrow-right">
-                </div>
-                <div>
-                    <div class="pink-rectangle margin-right16">
-                        <img class="bin">
+                <div class="history-detials-flex gray-box">
+                    <div  class="small-txt16 margin-left16">
+                        UE345235666
+                    </div>
+                    <div  class="small-txt16">
+                        24-01-2023-18:32
+                    </div>
+                    <div class="small-txt16">
+                        $32.34
+                    </div>
+                    <div class="arrow-flex" onclick="
+                        document.getElementById('ordermodal').style.display='block';
+                        document.getElementById('bodycontainer').className ='body-container-blured'
+                        ">
+                        <span class="small-txt14 blue-txt">View detail </span>
+                        <img class="arrow-right">
+                    </div>
+                    <div>
+                        <div class="pink-rectangle margin-right16">
+                            <img class="bin">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="history-detials-flex gray-box">
-                <div  class="small-txt16 margin-left16">
-                    UE343798231
-                </div>
-                <div  class="small-txt16">
-                    24-01-2023-18:32
-                </div>
-                <div class="small-txt16">
-                    $45.52
-                </div>
-                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
-                    <span class="small-txt14 blue-txt">View detail </span>
-                    <img class="arrow-right">
-                </div>
-                <div>
-                    <div class="pink-rectangle margin-right16">
-                        <img class="bin">
+                <div class="history-detials-flex gray-box">
+                    <div  class="small-txt16 margin-left16">
+                        UE343798231
+                    </div>
+                    <div  class="small-txt16">
+                        24-01-2023-18:32
+                    </div>
+                    <div class="small-txt16">
+                        $45.52
+                    </div>
+                    <div class="arrow-flex" onclick="
+                        document.getElementById('ordermodal').style.display='block';
+                        document.getElementById('bodycontainer').className ='body-container-blured'
+                        ">
+                        <span class="small-txt14 blue-txt">View detail </span>
+                        <img class="arrow-right">
+                    </div>
+                    <div>
+                        <div class="pink-rectangle margin-right16">
+                            <img class="bin">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="history-detials-flex gray-box">
-                <div  class="small-txt16 margin-left16">
-                    UE888756443
-                </div>
-                <div  class="small-txt16">
-                    24-01-2023-18:32
-                </div>
-                <div class="small-txt16">
-                    $56.56
-                </div>
-                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
-                    <span class="small-txt14 blue-txt">View detail </span>
-                    <img class="arrow-right">
-                </div>
-                <div>
-                    <div class="pink-rectangle margin-right16">
-                        <img class="bin">
+                <div class="history-detials-flex gray-box">
+                    <div  class="small-txt16 margin-left16">
+                        UE888756443
+                    </div>
+                    <div  class="small-txt16">
+                        24-01-2023-18:32
+                    </div>
+                    <div class="small-txt16">
+                        $56.56
+                    </div>
+                    <div class="arrow-flex" onclick="
+                        document.getElementById('ordermodal').style.display='block';
+                        document.getElementById('bodycontainer').className ='body-container-blured'
+                        ">
+                        <span class="small-txt14 blue-txt">View detail </span>
+                        <img class="arrow-right">
+                    </div>
+                    <div>
+                        <div class="pink-rectangle margin-right16">
+                            <img class="bin">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="history-detials-flex gray-box">
-                <div  class="small-txt16 margin-left16">
-                    UE242312452
-                </div>
-                <div  class="small-txt16">
-                    24-01-2023-18:32
-                </div>
-                <div class="small-txt16">
-                    $120.59
-                </div>
-                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
-                    <span class="small-txt14 blue-txt">View detail </span>
-                    <img class="arrow-right">
-                </div>
-                <div>
-                    <div class="pink-rectangle margin-right16">
-                        <img class="bin">
+                <div class="history-detials-flex gray-box">
+                    <div  class="small-txt16 margin-left16">
+                        UE242312452
+                    </div>
+                    <div  class="small-txt16">
+                        24-01-2023-18:32
+                    </div>
+                    <div class="small-txt16">
+                        $120.59
+                    </div>
+                    <div class="arrow-flex" onclick="
+                        document.getElementById('ordermodal').style.display='block';
+                        document.getElementById('bodycontainer').className ='body-container-blured'
+                        ">
+                        <span class="small-txt14 blue-txt">View detail </span>
+                        <img class="arrow-right">
+                    </div>
+                    <div>
+                        <div class="pink-rectangle margin-right16">
+                            <img class="bin">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="history-detials-flex gray-box">
-                <div  class="small-txt16 margin-left16">
-                    yu564326274
-                </div>
-                <div  class="small-txt16">
-                    24-01-2023-18:32
-                </div>
-                <div class="small-txt16">
-                    $45.94
-                </div>
-                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
-                    <span class="small-txt14 blue-txt">View detail </span>
-                    <img class="arrow-right">
-                </div>
-                <div>
-                    <div class="pink-rectangle margin-right16">
-                        <img class="bin">
+                <div class="history-detials-flex gray-box">
+                    <div  class="small-txt16 margin-left16">
+                        yu564326274
+                    </div>
+                    <div  class="small-txt16">
+                        24-01-2023-18:32
+                    </div>
+                    <div class="small-txt16">
+                        $45.94
+                    </div>
+                    <div class="arrow-flex" onclick="
+                        document.getElementById('ordermodal').style.display='block';
+                        document.getElementById('bodycontainer').className ='body-container-blured'
+                        ">
+                        <span class="small-txt14 blue-txt">View detail </span>
+                        <img class="arrow-right">
+                    </div>
+                    <div>
+                        <div class="pink-rectangle margin-right16">
+                            <img class="bin">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="history-detials-flex gray-box">
-                <div  class="small-txt16 margin-left16">
-                    Ty346536812
-                </div>
-                <div  class="small-txt16">
-                    24-01-2023-18:32
-                </div>
-                <div class="small-txt16">
-                    $12.97
-                </div>
-                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
-                    <span class="small-txt14 blue-txt">View detail </span>
-                    <img class="arrow-right">
-                </div>
-                <div>
-                    <div class="pink-rectangle margin-right16">
-                        <img class="bin">
+                <div class="history-detials-flex gray-box">
+                    <div  class="small-txt16 margin-left16">
+                        Ty346536812
+                    </div>
+                    <div  class="small-txt16">
+                        24-01-2023-18:32
+                    </div>
+                    <div class="small-txt16">
+                        $12.97
+                    </div>
+                    <div class="arrow-flex" onclick="
+                        document.getElementById('ordermodal').style.display='block';
+                        document.getElementById('bodycontainer').className ='body-container-blured'
+                        ">
+                        <span class="small-txt14 blue-txt">View detail </span>
+                        <img class="arrow-right">
+                    </div>
+                    <div>
+                        <div class="pink-rectangle margin-right16">
+                            <img class="bin">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="history-detials-flex gray-box">
-                <div  class="small-txt16 margin-left16">
-                    FE123412455
-                </div>
-                <div  class="small-txt16">
-                    24-01-2023-18:32
-                </div>
-                <div class="small-txt16">
-                    $30.79
-                </div>
-                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
-                    <span class="small-txt14 blue-txt">View detail </span>
-                    <img class="arrow-right">
-                </div>
-                <div>
-                    <div class="pink-rectangle margin-right16">
-                        <img class="bin">
+                <div class="history-detials-flex gray-box">
+                    <div  class="small-txt16 margin-left16">
+                        FE123412455
+                    </div>
+                    <div  class="small-txt16">
+                        24-01-2023-18:32
+                    </div>
+                    <div class="small-txt16">
+                        $30.79
+                    </div>
+                    <div class="arrow-flex" onclick="
+                        document.getElementById('ordermodal').style.display='block';
+                        document.getElementById('bodycontainer').className ='body-container-blured'
+                        ">
+                        <span class="small-txt14 blue-txt">View detail </span>
+                        <img class="arrow-right">
+                    </div>
+                    <div>
+                        <div class="pink-rectangle margin-right16">
+                            <img class="bin">
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <div id="ordermodal" >
+            </section>
+           
+            <footer class="invoice-footer" >
+                <hr class="footer-hr" style="top: -70px;">
+                <div class="footer-div">
+                    <div class="white-input-selector-txt"> Ⓒ Pizzaro Fast Food Inc 2021</div>
+                    <div>
+                        <img class="black-facebook">
+                        <span class="white-input-selector-txt">Keep updated follow our Facebook page</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div id="ordermodal"  class="order-modal-container">
             <div class="order-modal">
                 <div class="flex-group">
                     <div  class="small-flex">
@@ -262,7 +305,9 @@
                         <div  class="small-txt16">24-01-2023-18:32</div>
                     </div>
                     <div>
-                        <img class="close" onclick="document.getElementById('ordermodal').style.display='none'">
+                        <img class="close" onclick="
+                         document.getElementById('ordermodal').style.display='none';
+                         document.getElementById('bodycontainer').className ='body-container'">
                     </div>
                 </div>
                 <div style="align-self: flex-start; height: 1px;">
@@ -313,15 +358,6 @@
                 </div>     
             </div>
         </div>
-        <footer class="invoice-footer" >
-            <hr class="footer-hr" style="top: -70px;">
-            <div class="footer-div">
-                <div class="white-input-selector-txt"> Ⓒ Pizzaro Fast Food Inc 2021</div>
-                <div>
-                    <img class="black-facebook">
-                    <span class="white-input-selector-txt">Keep updated follow our Facebook page</span>
-                </div>
-            </div>
-        </footer>
     </body>
+    
 </html>
