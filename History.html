@@ -49,7 +49,6 @@
                 <div class="small-txt16 gray-txt3">Action</div>
                 <div class="small-txt16 gray-txt3 margin-right16">Delete</div>
             </div>
-
             <div class="history-detials-flex gray-box">
                 <div  class="small-txt16 margin-left16">
                     UE845125612
@@ -60,7 +59,7 @@
                 <div class="small-txt16">
                     $33.99
                 </div>
-                <div class="arrow-flex">
+                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
                     <span class="small-txt14 blue-txt">View detail </span>
                     <img class="arrow-right">
                 </div>
@@ -80,7 +79,7 @@
                 <div class="small-txt16">
                     $33.99
                 </div>
-                <div class="arrow-flex">
+                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
                     <span class="small-txt14 blue-txt">View detail </span>
                     <img class="arrow-right">
                 </div>
@@ -100,7 +99,7 @@
                 <div class="small-txt16">
                     $34.99
                 </div>
-                <div class="arrow-flex">
+                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
                     <span class="small-txt14 blue-txt">View detail </span>
                     <img class="arrow-right">
                 </div>
@@ -120,7 +119,7 @@
                 <div class="small-txt16">
                     $32.34
                 </div>
-                <div class="arrow-flex">
+                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'" >
                     <span class="small-txt14 blue-txt">View detail </span>
                     <img class="arrow-right">
                 </div>
@@ -140,7 +139,7 @@
                 <div class="small-txt16">
                     $45.52
                 </div>
-                <div class="arrow-flex">
+                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
                     <span class="small-txt14 blue-txt">View detail </span>
                     <img class="arrow-right">
                 </div>
@@ -160,7 +159,7 @@
                 <div class="small-txt16">
                     $56.56
                 </div>
-                <div class="arrow-flex">
+                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
                     <span class="small-txt14 blue-txt">View detail </span>
                     <img class="arrow-right">
                 </div>
@@ -180,7 +179,7 @@
                 <div class="small-txt16">
                     $120.59
                 </div>
-                <div class="arrow-flex">
+                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
                     <span class="small-txt14 blue-txt">View detail </span>
                     <img class="arrow-right">
                 </div>
@@ -200,7 +199,7 @@
                 <div class="small-txt16">
                     $45.94
                 </div>
-                <div class="arrow-flex">
+                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
                     <span class="small-txt14 blue-txt">View detail </span>
                     <img class="arrow-right">
                 </div>
@@ -220,7 +219,7 @@
                 <div class="small-txt16">
                     $12.97
                 </div>
-                <div class="arrow-flex">
+                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
                     <span class="small-txt14 blue-txt">View detail </span>
                     <img class="arrow-right">
                 </div>
@@ -240,7 +239,7 @@
                 <div class="small-txt16">
                     $30.79
                 </div>
-                <div class="arrow-flex">
+                <div class="arrow-flex" onclick="document.getElementById('ordermodal').style.display='block'">
                     <span class="small-txt14 blue-txt">View detail </span>
                     <img class="arrow-right">
                 </div>
@@ -251,6 +250,69 @@
                 </div>
             </div>
         </section>
+        <div id="ordermodal" >
+            <div class="order-modal">
+                <div class="flex-group">
+                    <div  class="small-flex">
+                        <div class="small-txt14"> Tracking ID: </div>
+                        <div  class="small-txt16">UE845125612</div>
+                    </div>
+                    <div  class="small-flex">
+                        <div class="small-txt14"> Date: </div>
+                        <div  class="small-txt16">24-01-2023-18:32</div>
+                    </div>
+                    <div>
+                        <img class="close" onclick="document.getElementById('ordermodal').style.display='none'">
+                    </div>
+                </div>
+                <div style="align-self: flex-start; height: 1px;">
+                    <hr class="hr" style="width: 672px; ">
+                </div>
+                <div>
+                    <div class="flex-group">
+                        <div class="small-flex">
+                            <img class="close">
+                            <img class="pizza">
+                            <span class="small-txt14">Hawaiian Pizza</span>
+                        </div>
+                        
+                        <span class="size-txt">Small (32in.)</span>
+                        <span class="small-price">$18.00</span> 
+                    </div>
+                    <div class="flex-group">
+                        <div class="small-flex">
+                            <img class="close">
+                            <img class="pizza">
+                            <span class="small-txt14">Hawaiian Pizza</span>
+                        </div>
+                        <span class="size-txt">Small (32in.)</span>
+                        <span class="small-price">$18.00</span> 
+                    </div>                    
+                </div>
+                <div class="flex-group">
+                    <span class="small-txt14">Subtotal</span>
+                    <span class="ss-price">$1.00</span> 
+                </div>
+                <div class="flex-group">
+                    <span class="small-txt14">E-Vat</span>
+                    <span class="ss-price">$0.99</span> 
+                </div>
+                <div class="flex-group">
+                    <span class="small-txt14">Delivery Fee (Free for over $15.00)</span>
+                    <span class="ss-price">$0.00</span> 
+                </div>
+                <div style="align-self: flex-start">
+                    <hr class="hr" style="width: 672px; ">
+                </div>
+                <div class="flex-group">
+                    <div class="small-flex">
+                        <span class="medium-txt24">Total </span>
+                        <span class="small-txt15">(Credit or Debit Card)</span>
+                    </div>
+                    <span class="medium-price">$37.99</span> 
+                </div>     
+            </div>
+        </div>
         <footer class="invoice-footer" >
             <hr class="footer-hr" style="top: -70px;">
             <div class="footer-div">

@@ -135,6 +135,9 @@
     line-height: 19px;
     color: #000000;
 }
+.height16{
+    line-height: 16px; 
+}
 .small-txt16-italic
 {
     position: absolute; 
@@ -171,7 +174,7 @@
  }
  
 .flex-group{
-    width: 700px;
+    width: 672px;
     display:flex;
     justify-content: space-between;
     align-content: space-between;
@@ -209,6 +212,14 @@
     line-height: 16px;
     color: #2D2D2D;
 }
+.small-txt15{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 33px;
+    color: #2D2D2D;
+}
 .small-txt18{
     font-family: 'Roboto';
     font-style: normal;
@@ -237,7 +248,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 33px;
+    line-height: 24px;
     display: flex;
     align-items: center;
     text-align: right;
@@ -764,17 +775,24 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
-    Width: 456px;
-    Height: 366px;
+    Width: 410px;
+    Height: 318px;
     display: flex;
     flex-direction: column;
-    gap: 34px;
-    padding-left: 24px;
-    padding-top: 24px;
+    gap: 32px;
+    padding: 24px;
   }
   .transaction-information-box{
-    gap: 88px;
+    gap: 75px;
     align-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    Width: 408px;
+    Height: 318px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
   }
   .incoive-session-col1{
     display: grid;
@@ -782,20 +800,29 @@
     width: 100%;
     gap: 16px;
   }
-  .payment-method-box{
-    background: #FFFFFF;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
-    Width: 456px;
-    Height: 98px;
-  }
+ 
+  
   .ivoice-order{
     display: flex;
-    width: 100%;
+    width: 672px;
+    height: 464px;
     flex-direction: column;
     align-items: flex-start;
     padding: 24px;
     gap: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+  }
+  .transaction-order{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+
+    width: 672px;
+    height: 400px;
     background: #FFFFFF;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
@@ -838,6 +865,7 @@
     color: #696969;
 }
 .invoice-input{
+    width: 410px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -852,7 +880,7 @@
     align-items: baseline;
     gap :24px;
     justify-content: center;
-    padding-left: 21px;
+    padding: 24px;
     position: relative;
     cursor: pointer;
     font-family: 'Roboto';
@@ -861,6 +889,11 @@
     font-size: 18px;
     line-height: 21px;
     color: #000000;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    Width: 408px;
+    Height:50px;
 
 }
 .invoice-myorder-title{
@@ -933,13 +966,8 @@
     width: 7px;
     height: 14px;
 }
-.txt-small15{
-    Font: 'Roboto';
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 33px;
-    color: #2D2D2D;
-}
+
+
 .invoice-number-box{
     box-sizing: border-box;
     background: #FFFFFF;
@@ -1071,4 +1099,25 @@
 }
 .no-decoration{
     text-decoration: none;
+}
+.order-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 25px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+    gap: 24px;
+    position: absolute;
+    width: 672px;
+    height: 402px;
+    left: 360px;
+    top: 286px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 26px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+#ordermodal{
+    display: none;
 }
