@@ -923,7 +923,9 @@
     justify-content: center;
     align-items: center;
     gap:13px;
-    /* width: 500px; */
+}
+.gap8{
+    gap:8px;
 }
 .small-flex-column{
     display: flex;
