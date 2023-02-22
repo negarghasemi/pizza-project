@@ -747,6 +747,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
+    top :976px;
     width: 100%;
     text-align: center;
   }
