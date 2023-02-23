@@ -140,7 +140,7 @@
     width: 19.11px;
     height: 13.16px;
     font-family: Roboto;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
@@ -158,6 +158,7 @@
     font-family: Roboto;
     font-style: normal;
     font-size: 16px;
+    font-weight: bold;
     color: #DA1315;
  }
 .ellipse{
@@ -167,6 +168,8 @@
     right: 0px;
     top: -6px;
     content: url("./Pictures/Ellipse 52 (Stroke).png");
+    transform: rotate(-10deg);
+
  }
  
 .flex-group{
